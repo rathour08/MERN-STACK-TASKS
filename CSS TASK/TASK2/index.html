@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVBAR</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            width: 90vw;
+            height: 90vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+
+        .navbar div{
+            border: 1px solid black;
+            
+        }
+        .vertical{
+            width: 30%;
+            height: 48.3%;
+            background-color: rgb(172,217,231);
+        }
+        .horizontal{
+            width: 60%;
+            height: 9%;
+            align-items: end;
+            overflow: hidden;
+        }
+
+
+        .navbar div li{
+            list-style-type: none;
+        }
+        .navbar li a{
+            text-decoration: none;
+        }
+        .vertical li{
+            border-bottom: 1px solid #555;
+            
+        }
+
+        .vertical li a{
+            font-size: x-large;
+            cursor: pointer;
+            color: white;
+            display: block;
+            padding: 11px
+            
+        }
+        .vertical li :hover{
+            background-color: #04AA6D;
+            border-radius: 5px;
+        }
+        .vertical li a.active{
+            background-color: rgb(255,164,0);
+            color: white;
+
+        }
+        .vertical ul{
+            margin: 0;
+            padding: 0;
+        }
+        /*styling for horizontal*/
+        .horizontal{
+            background-color: #04AA6D;
+        }
+        .horizontal ul{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .horizontal li{
+            float: left;
+        }
+        .horizontal a{
+            display: block;
+            padding: 10px 10px;
+            color: white;
+            font-size: x-large;
+            border-right: 1px solid #bbb;
+            
+        }
+
+        .horizontal a:hover{
+            background-color: rgb(212, 112, 129);
+
+        }
+        .horizontal a.active{
+            background-color: #555;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        
+
+        <div class="vertical">
+            
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Java</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">Bootstrap</a></li>
+            </ul>
+
+        </div>
+        <div class="horizontal">
+            <ul>
+                <li><a href="" class="active">Home </a></li>
+                <li><a href="">Java</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">Bootstrap</a></li>
+            </ul>
+
+
+        </div>
+
+    </header>
+    
+</body>
+</html>
