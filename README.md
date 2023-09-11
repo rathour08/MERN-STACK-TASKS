@@ -8,3 +8,4 @@ LINK OF TASK5:https://rathour08.github.io/MERN-STACK-TASKS/HTML%20TASK/Task5 <br
 # CSS-TASKS <br>
 LINK OF TASK1:https://rathour08.github.io/MERN-STACK-TASKS/CSS%20TASK/TASK1 <br>
 LINK OF TAKS2:https://rathour08.github.io/MERN-STACK-TASKS/CSS%20TASK/TASK2 <br>
+LINK OF TASK6:https://rathour08.github.io/MERN-STACK-TASKS/CSS%20TASK/TASK6 <br>
