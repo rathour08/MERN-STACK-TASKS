@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #wrapper{
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-color: rgb(162,43,85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            
+            width: 70%;
+            height: 90%;
+            background-color: rgb(117,33,62);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .dec{
+            color: white;
+            font-size: 900;
+        }
+        table{
+            margin: auto;
+            margin-top: 1.5rem;
+        }
+        table input{
+            margin: 0.4rem 0;
+            padding: 0.2rem;
+
+        }
+        .button{
+            border: 1px solid white;
+            width: 300px;
+            margin-bottom: 30%;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            padding: 0.5rem;
+        }
+        button{
+            border: none;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <table>
+                <tr>
+                    <td class="dec">Name:</td>
+                    <td class="input"><input type="text" placeholder="your name"></td>
+                </tr>
+                <tr>
+                    <td class="dec">
+                        Email:
+                    </td>
+                    <td>
+                        <input type="text" class=" input" placeholder="your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dec">Password:</td>
+                    <td><input type="text" class="input"></td>
+                </tr>
+                <tr>
+                    <td class="dec"> Phone Number:</td>
+                    <td>
+                        <input type="text" class="input
+                        ">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dec">Gender:</td>
+                    <td>
+                        <label for="male" class="dec">Male:</label>
+                        <input type="radio" id="male" name="radio">
+                        <label for="male" class="dec">Female:</label>
+                        <input type="radio" id="male" name="radio">
+                        <label for="male" class="dec">Other:</label>
+                        <input type="radio" id="male" name="radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dec"> Language:</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="" class="input">Select language</option>
+                            <option value="">
+                                HINDI
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dec">Zip Code:</td>
+                    <td class="input"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="dec">About:</td>
+                    <td><textarea name="" id="" cols="21" rows="5"></textarea></td>
+                </tr>
+
+
+
+            </table>
+            <div class="button">
+                <button>Register</button>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
